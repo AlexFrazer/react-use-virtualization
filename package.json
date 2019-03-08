@@ -1,0 +1,72 @@
+{
+  "name": "react-use-virtualization",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "build": "tsc",
+    "build:watch": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexFrazer/react-use-virtualization.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexFrazer/react-use-virtualization/issues"
+  },
+  "homepage": "https://github.com/AlexFrazer/react-use-virtualization#readme",
+  "jest": {
+    "transform": {
+      "\\.[tj]sx?$": "ts-jest"
+    },
+    "testRegex": "\\.test\\.tsx?$",
+    "setupFilesAfterEnv": [
+      "./src/setupTests.ts"
+    ],
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx"
+    ],
+    "moduleNameMapper": {
+      "^~src(.*)$": "<rootDir>/$1"
+    }
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.9",
+    "@types/jest-axe": "^2.2.3",
+    "@types/react": "^16.8.7",
+    "@typescript-eslint/eslint-plugin": "^1.4.2",
+    "@typescript-eslint/parser": "^1.4.2",
+    "cz-conventional-changelog": "^2.1.0",
+    "eslint": "^5.15.1",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-react-hooks": "^1.5.0",
+    "jest": "^24.3.1",
+    "jest-axe": "^3.1.1",
+    "jest-dom": "^3.1.2",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-testing-library": "^6.0.0",
+    "ts-jest": "^24.0.0",
+    "typescript": "^3.3.3333"
+  },
+  "peerDependencies": {
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
